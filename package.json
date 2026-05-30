@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Hệ thống AI soi cầu phân tích dữ liệu WebSocket Sunwin",
   "main": "server.js",
-  "scripts": {
+  "scripts": {"start": "node apilekhanhnam.js"
     "start": "node apilekhanhnam.js",
     "dev": "nodemon apilekhanhnam.js"
   },
