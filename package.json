@@ -1,30 +1,13 @@
 {
-  "name": "sunwin-prediction-api",
+  "name": "telegram-bot-fastify",
   "version": "1.0.0",
-  "description": "Hệ thống AI soi cầu phân tích dữ liệu WebSocket Sunwin",
-  "main": "server.js",
-  "scripts": {"start": "node apilekhanhnam.js"
-    "start": "node apilekhanhnam.js",
-    "dev": "nodemon apilekhanhnam.js"
+  "description": "",
+  "main": "apilekhanhnam.js",
+  "scripts": {
+    "start": "node apilekhanhnam.js"
   },
-  "keywords": [
-    "fastify",
-    "websocket",
-    "sqlite3",
-    "sunwin",
-    "prediction"
-  ],
-  "author": "Hirosimatrickerfb",
-  "license": "ISC",
   "dependencies": {
-    "@fastify/websocket": "^10.0.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "fastify": "^4.26.2",
-    "sqlite3": "^5.1.7",
-    "ws": "^8.16.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "fastify": "^4.26.0",
+    "node-telegram-bot-api": "^0.66.0"
   }
 }
